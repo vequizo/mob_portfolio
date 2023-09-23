@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(../Pictures/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.topnav {
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+  top: 2rem;
+  margin-bottom: 2rem;
+  float: right;
+  font-weight: bold;
+}
+
+.topnav a {
+  font-size: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: steelblue;
+  color: black;
+}
+
+.active {
+  background-color:steelblue;
+  color: black;
+}
+
+.header {
+  padding-top: 5rem;
+  padding-left: 1rem;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: white;
+  padding: 0.5rem;
+}
+
+img {
+  width: 40%;
+}
+
+.puerto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: steelblue;
+  border: 3px solid white;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  border-radius: 40px;
+}
+
+.san_antonio {
+  background-color: steelblue;
+  border: 3px solid white;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.smaj {
+  background-color: steelblue;
+  border: 3px solid white;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.santa_rita {
+  background-color: steelblue;
+  border: 3px solid white;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.ustp {
+  background-color: steelblue;
+  border: 3px solid white;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}

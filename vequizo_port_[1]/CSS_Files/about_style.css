@@ -1,0 +1,113 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(../Pictures/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.topnav {
+	overflow: hidden;
+	display: flex;
+	position: sticky;
+	top: 2rem;
+	margin-bottom: 2rem;
+	font-weight: bold;
+	float: right;
+}
+
+.topnav a {
+	font-size: 15px;
+	flex-direction: row;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+.active {
+	background-color: steelblue;
+	color: black;
+}
+
+.header {
+	padding-top: 5rem;
+	padding-left: 1rem;
+}
+
+.header h1 {
+	font-size: 40px;
+	color: white;
+	padding: 0.5rem;
+	padding-left: 127px;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: left;
+	padding: 0px;
+	width: 30%;
+}
+
+nav img {
+	border-radius: 50%;
+	height: 28rem;
+	width: 30rem;
+	object-fit: cover;
+	padding-left: 1rem;
+	margin-bottom: 5rem;
+}
+
+.article {
+	float: right;
+	padding: 10px;
+	width: 66%;
+	-border: solid whitesmoke;
+	height: 350px;
+}
+
+.article h1 {
+	font-size: 40px;
+	color: white;
+}
+
+.article p {
+	font-size: 20px;
+	color: white;
+}
+
+footer {
+	font-family: arial;
+	padding: 00px;
+	font-size: 20px;
+	color: color(from color srgb r g b);
+	font-weight: bold;
+}
+
+footer h3 {
+	color: white;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer p {
+	color: white;
+}

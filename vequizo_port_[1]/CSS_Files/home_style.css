@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(../Pictures/background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.topnav {
+	overflow: hidden;
+	display: flex;
+	position: sticky;
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+	font-weight: bold;
+	float: right;
+}
+
+.topnav a {
+	font-size: 15px;
+	flex-direction: row;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+.active {
+	background-color: steelblue;
+	color: black;
+}
+
+.introduction {
+  position: absolute;
+  top: 13rem;
+  left: auto;
+}
+
+.introduction h1 {
+  color: white;
+}
+
+.introduction aside p {
+  width: 55%;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
